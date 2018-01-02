@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.esys.mapper.MenuMapper">
+	
+	<resultMap id="menuResultMap" type="menu" autoMapping="true">
+		<id property="id" column="id"/>
+		<association property="parent" autoMapping="true" javaType="menu" columnPrefix="p_"></association>
+		<collection property="children" ofType="menu" autoMapping="true" columnPrefix="c_"></collection>
+	</resultMap>
+	<select id="findAllByParentId" resultMap="menuResultMap">
+		select m.*,
+		parent.id as "p_id",
+		parent.name as "p_name",
+		parent.no as "p_no",
+		parent.icon as "p_icon",
+		parent.resource as "p_resource",
+		parent.resourceType as "p_resourceType",
+		child.id as "c_id",
+		child.name as "c_name",
+		child.no as "c_no",
+		child.icon as "c_icon",
+		child.resource as "c_resource",
+		child.resourceType as "c_resourceType"
+		from sys_menu m
+		left outer join sys_menu parent on m.parent_id = parent.id
+		left outer join sys_menu child on m.id = child.parent_id
+		where m.parent_id = #{parentId}
+	</select>
+	
+	<select id="findAllByParentIsNull" resultMap="menuResultMap">
+		select m.*,
+		child.id as "c_id",
+		child.name as "c_name",
+		child.no as "c_no",
+		child.icon as "c_icon",
+		child.resource as "c_resource",
+		child.resourceType as "c_resourceType"
+		from sys_menu m
+		left outer join sys_menu child on m.id = child.parent_id
+		where m.parent_id is null
+	</select>
+</mapper>

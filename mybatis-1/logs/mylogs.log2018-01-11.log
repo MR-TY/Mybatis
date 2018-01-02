@@ -1,0 +1,44 @@
+2018-01-1111:15:03[com.qfedu.esys.mybatis.Controller][main:101]-[INFO]s
+2018-01-1111:15:35[com.qfedu.esys.mybatis.Controller][main:106]-[INFO]名字s
+2018-01-1111:15:44[com.qfedu.esys.mybatis.Controller][main:71]-[INFO]名字：s
+2018-01-1111:18:07[com.qfedu.esys.mybatis.Controller][main:115]-[INFO]名字：s
+2018-01-1111:18:07[com.qfedu.esys.mybatis.Controller][main:139]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1114:50:41[com.qfedu.esys.mybatis.Controller][main:119]-[INFO]名字：s
+2018-01-1114:50:41[com.qfedu.esys.mybatis.Controller][main:144]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1114:50:41[com.qfedu.esys.mybatis.Controller][main:147]-[INFO][Dictionary [id=1, description=s, dicType=s, name=s, val=s]]
+2018-01-1114:51:00[com.qfedu.esys.mybatis.Controller][main:99]-[INFO]名字：s
+2018-01-1114:51:00[com.qfedu.esys.mybatis.Controller][main:108]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1114:51:00[com.qfedu.esys.mybatis.Controller][main:111]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s]]
+2018-01-1114:51:16[com.qfedu.esys.mybatis.Controller][main:118]-[INFO]名字：s
+2018-01-1114:51:16[com.qfedu.esys.mybatis.Controller][main:129]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1114:51:16[com.qfedu.esys.mybatis.Controller][main:140]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:00:45[com.qfedu.esys.mybatis.Controller][main:134]-[INFO]名字：s
+2018-01-1115:00:45[com.qfedu.esys.mybatis.Controller][main:144]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:00:45[com.qfedu.esys.mybatis.Controller][main:147]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:01:46[com.qfedu.esys.mybatis.Controller][main:128]-[INFO]名字：s
+2018-01-1115:01:46[com.qfedu.esys.mybatis.Controller][main:136]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:01:46[com.qfedu.esys.mybatis.Controller][main:140]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:02:03[com.qfedu.esys.mybatis.Controller][main:116]-[INFO]名字：s
+2018-01-1115:02:03[com.qfedu.esys.mybatis.Controller][main:125]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:02:03[com.qfedu.esys.mybatis.Controller][main:129]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:02:56[com.qfedu.esys.mybatis.Controller][main:118]-[INFO]名字：s
+2018-01-1115:02:56[com.qfedu.esys.mybatis.Controller][main:130]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:02:56[com.qfedu.esys.mybatis.Controller][main:136]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:05:05[com.qfedu.esys.mybatis.Controller][main:94]-[INFO]名字：s
+2018-01-1115:05:05[com.qfedu.esys.mybatis.Controller][main:103]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:05:05[com.qfedu.esys.mybatis.Controller][main:108]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:05:24[com.qfedu.esys.mybatis.Controller][main:107]-[INFO]名字：s
+2018-01-1115:05:24[com.qfedu.esys.mybatis.Controller][main:116]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:05:24[com.qfedu.esys.mybatis.Controller][main:119]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:09:45[com.qfedu.esys.mybatis.Controller][main:106]-[INFO]名字：s
+2018-01-1115:09:45[com.qfedu.esys.mybatis.Controller][main:116]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:09:45[com.qfedu.esys.mybatis.Controller][main:120]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a]]
+2018-01-1115:13:49[com.qfedu.esys.mybatis.Controller][main:82]-[INFO]名字：s
+2018-01-1115:13:49[com.qfedu.esys.mybatis.Controller][main:92]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1115:13:49[com.qfedu.esys.mybatis.Controller][main:98]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a], Dictionary [id=4, description=a, dicType=a, name=a, val=a]]
+2018-01-1116:00:41[com.qfedu.esys.mybatis.Controller][main:80]-[INFO]名字：s
+2018-01-1116:00:42[com.qfedu.esys.mybatis.Controller][main:121]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1116:00:42[com.qfedu.esys.mybatis.Controller][main:126]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a], Dictionary [id=4, description=a, dicType=a, name=a, val=a]]
+2018-01-1119:39:09[com.qfedu.esys.mybatis.Controller][main:123]-[INFO]名字：s
+2018-01-1119:39:09[com.qfedu.esys.mybatis.Controller][main:175]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-1119:39:09[com.qfedu.esys.mybatis.Controller][main:179]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a], Dictionary [id=4, description=a, dicType=a, name=a, val=a]]

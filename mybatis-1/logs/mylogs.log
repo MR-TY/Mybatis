@@ -1,0 +1,3 @@
+2018-01-0111:37:12[com.qfedu.esys.mybatis.Controller][main:123]-[INFO]名字：s
+2018-01-0111:37:12[com.qfedu.esys.mybatis.Controller][main:142]-[INFO]Dictionary [id=1, description=s, dicType=s, name=s, val=s]
+2018-01-0111:37:12[com.qfedu.esys.mybatis.Controller][main:146]-[INFO]全部：[Dictionary [id=1, description=s, dicType=s, name=s, val=s], Dictionary [id=2, description=a, dicType=a, name=a, val=a], Dictionary [id=4, description=a, dicType=a, name=a, val=a]]

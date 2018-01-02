@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.esys.mapper.DictionaryMapper">
+
+	<select id="findOneDictionaryById" resultType="dictionary">
+		select * from
+		sys_directionary where id = #{id}
+	</select>
+
+	<select id="findAllDictionary" resultType="dictionary">
+		select * from
+		sys_directionary
+	</select>
+
+	<select id="createOneDictionary" resultType="dictionary">
+		insert into sys_directionary (id, dicType, name, val, description)
+		values (#{id}, #{dicType}, #{name}, #{val}, #{description})
+		
+	</select>
+
+	<select id="deleteDictionaryById" resultType="dictionary">
+		delete from
+		sys_directionary
+		where id = #{id}
+	</select>
+
+	<select id="updateDictionary" resultType="dictionary">
+		update sys_directionary
+		set
+		description = #{description},
+		dicType = #{dicType},
+		val = #{val}
+		where id = #{id}
+	</select>
+</mapper>
