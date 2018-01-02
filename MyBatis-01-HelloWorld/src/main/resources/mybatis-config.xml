@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 下面节点定义是有顺序要求的，否则会报错 -->
+	<properties resource="init.properties"></properties>
+	<!-- 设置 -->
+	<settings>
+	<!-- 
+		lazyLoadingEnabled:开启的时候只有在使用的时候被加载，不使用的时候不会进行加载
+		aggressiveLazyLoading：关闭之后就不会侵入懒加载
+	 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<setting name="aggressiveLazyLoading" value="false"/>
+	</settings>
+	<!-- 设置类型别名 -->
+	<typeAliases>
+		<package name="com.ty.entity" />
+	</typeAliases>
+	<!-- 设置环境 -->
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- 设置映射器 -->
+	 <mappers>
+	 	<mapper resource="com/ty/dao/Employee.xml"/> 
+	 	<mapper resource="com/ty/dao/EmployeeMapperPlus.xml"/> 
+	 	<mapper resource="com/ty/dao/DepartmentMapper.xml"/> 
+		<!-- <mapper class="com.ty.dao.EmployeeMapper"/> -->
+		<!-- <package name="com.ty.dao"/> -->
+	</mappers> 
+
+</configuration>
